@@ -4,13 +4,17 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build-and-analyzer": "set BUILD_ANALYZER=YES&& vue-cli-service build"
   },
   "dependencies": {
+    "@tanbo/textbus": "^1.0.0-beta.54",
+    "@textbus/textbus": "^1.0.0-beta.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "vconsole": "^3.3.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
